@@ -3,7 +3,7 @@ export const CONTACT = {
   phoneDisplay: "+34 613 25 45 58",
   phone: "+34613254558",
   whatsapp: "34613254558",
-  email: "hola@yasandrose.com",
+  email: "infoyasandrose@gmail.com",
   instagram: "https://www.instagram.com/yas_and_rose_/",
   instagramHandle: "@yas_and_rose_",
   city: "Benidorm",
@@ -16,13 +16,58 @@ export const waLink = (text = "¡Hola Yas&Rose! Me gustaría hacer un encargo.")
 export type Post = { id: string; image: string; title: string; caption: string; permalink: string };
 
 export const POSTS: Post[] = [
-  { id: "DeR1hHCKpZc", image: "/images/08_post_DeR1hHCKpZc.jpg", title: "Croissant bicolor", caption: "Croissant bicolor de mantequilla, laminado a mano y horneado cada mañana. El compañero perfecto para tu café en Benidorm.", permalink: "https://www.instagram.com/p/DeR1hHCKpZc/" },
-  { id: "DeUhL_hiisp", image: "/images/07_post_DeUhL_hiisp.jpg", title: "Tarta personalizada", caption: "Milhojas personalizada con frutas frescas, macarons y crema suave. Diseñada a medida para tu celebración.", permalink: "https://www.instagram.com/p/DeUhL_hiisp/" },
-  { id: "DeeyoY_NHHt", image: "/images/05_reel_DeeyoY_NHHt.jpg", title: "El interior que importa", caption: "Alveolado perfecto: capas y capas de hojaldre que crujen. Así nace un buen croissant artesanal.", permalink: "https://www.instagram.com/reel/DeeyoY_NHHt/" },
-  { id: "DeuRUctNzi2", image: "/images/01_post_DeuRUctNzi2.jpg", title: "Espirales de cacao", caption: "Espirales de cacao recién formadas en el obrador, listas para fermentar y hornear.", permalink: "https://www.instagram.com/p/DeuRUctNzi2/" },
-  { id: "DeRLdJNK165", image: "/images/09_post_DeRLdJNK165.jpg", title: "Lazos de frambuesa", caption: "Hojaldre bicolor en forma de lazo, un dulce de autor tan bonito como delicioso.", permalink: "https://www.instagram.com/p/DeRLdJNK165/" },
-  { id: "DeP3kylKwc8", image: "/images/10_post_DeP3kylKwc8.jpg", title: "Tarta de queso", caption: "Tarta de queso cremosa con superficie tostada. Sencilla, honesta e irresistible.", permalink: "https://www.instagram.com/p/DeP3kylKwc8/" },
-  { id: "Dd8f5T9KdgI", image: "/images/12_reel_Dd8f5T9KdgI.jpg", title: "Brioche de autor", caption: "Brioche trenzado con toques cítricos y glaseado brillante, recién salido del horno.", permalink: "https://www.instagram.com/reel/Dd8f5T9KdgI/" },
+  {
+    id: "DeR1hHCKpZc",
+    image: "/images/08_post_DeR1hHCKpZc.jpg",
+    title: "Croissant bicolor",
+    caption:
+      "Croissant bicolor de mantequilla, laminado a mano y horneado cada mañana. El compañero perfecto para tu café en Benidorm.",
+    permalink: "https://www.instagram.com/p/DeR1hHCKpZc/",
+  },
+  {
+    id: "DeUhL_hiisp",
+    image: "/images/07_post_DeUhL_hiisp.jpg",
+    title: "Tarta personalizada",
+    caption:
+      "Milhojas personalizada con frutas frescas, macarons y crema suave. Diseñada a medida para tu celebración.",
+    permalink: "https://www.instagram.com/p/DeUhL_hiisp/",
+  },
+  {
+    id: "DeeyoY_NHHt",
+    image: "/images/05_reel_DeeyoY_NHHt.jpg",
+    title: "El interior que importa",
+    caption:
+      "Alveolado perfecto: capas y capas de hojaldre que crujen. Así nace un buen croissant artesanal.",
+    permalink: "https://www.instagram.com/reel/DeeyoY_NHHt/",
+  },
+  {
+    id: "DeuRUctNzi2",
+    image: "/images/01_post_DeuRUctNzi2.jpg",
+    title: "Espirales de cacao",
+    caption: "Espirales de cacao recién formadas en el obrador, listas para fermentar y hornear.",
+    permalink: "https://www.instagram.com/p/DeuRUctNzi2/",
+  },
+  {
+    id: "DeRLdJNK165",
+    image: "/images/09_post_DeRLdJNK165.jpg",
+    title: "Lazos de frambuesa",
+    caption: "Hojaldre bicolor en forma de lazo, un dulce de autor tan bonito como delicioso.",
+    permalink: "https://www.instagram.com/p/DeRLdJNK165/",
+  },
+  {
+    id: "DeP3kylKwc8",
+    image: "/images/10_post_DeP3kylKwc8.jpg",
+    title: "Tarta de queso",
+    caption: "Tarta de queso cremosa con superficie tostada. Sencilla, honesta e irresistible.",
+    permalink: "https://www.instagram.com/p/DeP3kylKwc8/",
+  },
+  {
+    id: "Dd8f5T9KdgI",
+    image: "/images/12_reel_Dd8f5T9KdgI.jpg",
+    title: "Brioche de autor",
+    caption: "Brioche trenzado con toques cítricos y glaseado brillante, recién salido del horno.",
+    permalink: "https://www.instagram.com/reel/Dd8f5T9KdgI/",
+  },
 ];
 
 export const FAQ: { q: string; a: string }[] = [
